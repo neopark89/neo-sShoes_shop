@@ -1,0 +1,9 @@
+@value makerWhite from '../../common/color.css';
+
+.background {
+  background-image: url('../../../public/images/background.jpeg');
+  background-size: cover;
+  color: makerWhite;
+  width: 100%;
+  text-align: center;
+}
