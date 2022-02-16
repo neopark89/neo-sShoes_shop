@@ -2,8 +2,11 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import style from "./main.module.css";
 import Card from "./card";
+// import { useContext } from 'react';
+// import { ItemContext } from '../../context/itemContext';
 
-const Main = ({ shoes }) => {
+const Main = () => {
+  // const {shoes} = useContext(ItemContext);
   return (
     <section>
       <div className={style.background}>
@@ -13,7 +16,7 @@ const Main = ({ shoes }) => {
           <Button variant="primary"></Button>
         </p>
       </div>
-      <Card shoes={shoes} />
+      <Card />
     </section>
   );
 };

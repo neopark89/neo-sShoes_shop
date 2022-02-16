@@ -2,31 +2,44 @@
 @value mediaQuery from '../../common/size.css';
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert {
+    width: 80%;
+    text-align: center;
+    background-color: burlywood;
+    font-size: 2rem;
+    margin-top: 1rem;
 }
 
 .image {
-    width: 100%;
+  width: 100%;
 }
 
 .content {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 .btn {
-background-color: red;
-color: makerWhite;
-border: none;
-border-radius: 5px;
+  background-color: red;
+  color: makerWhite;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn2 {
+  background-color: blue;
+  color: makerWhite;
+  border: none;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: mediaQuery) {
-    .container {
-        flex-direction: column;
-    }
-    
+  .container {
+    flex-direction: column;
+  }
 }
-
