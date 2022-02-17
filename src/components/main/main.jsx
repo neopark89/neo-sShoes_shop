@@ -8,7 +8,7 @@ import Card from "./card";
 const Main = () => {
   // const {shoes} = useContext(ItemContext);
   return (
-    <section>
+    <section className={style.container}>
       <div className={style.background}>
         <h1>20% Season Off</h1>
         <p>This is a simple....</p>
